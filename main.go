@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"git-merge-example/controller"
+)
 
 func main() {
-	fmt.Println("this is main")
+	var buttonArrow controller.Controller
+	buttonArrow = controller.Right
+	fmt.Println("========  ========")
+	fmt.Printf("%+v\n", buttonArrow)
+	fmt.Println("=================")
 }
