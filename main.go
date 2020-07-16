@@ -30,4 +30,22 @@ func main() {
 	fmt.Println("--------  -------")
 	fmt.Printf("%+v\n", xboxX)
 	fmt.Println("----------------")
+
+	ps4 := console.Console{
+		ID:   3,
+		Name: "PS4",
+	}
+
+	xboxOne := console.Console{
+		ID:   4,
+		Name: "xboxOne",
+	}
+
+	fmt.Println("========  ========")
+	fmt.Printf("%+v\n", ps4)
+	fmt.Println("=================")
+
+	fmt.Println("--------  -------")
+	fmt.Printf("%+v\n", xboxOne)
+	fmt.Println("----------------")
 }
